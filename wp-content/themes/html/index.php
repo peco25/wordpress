@@ -3,8 +3,8 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>title</title>
-<link rel="apple-touch-icon" href="./images/touch-icon.png" />
-<link rel="shortcut icon" href="./images/favicon.ico" />
+    <link rel="apple-touch-icon" href="<?php biginfo('template_url'); ?>/images/touch-icon.png" />
+    <link rel="shortcut icon" href="<?php biginfo('template_url'); ?>/images/favicon.ico" />
     <link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo('stylesheet_url');?>" />
 <!--[if lt IE 9]>
   <meta http-equiv="Imagetoolbar" content="no" />
@@ -19,7 +19,7 @@
   <div id="container">
     <header id="header">
       <h1 id="site-id">
-        <a href="#"><img src="./images/header/site_id.png" alt="サイトID" /></a>
+            <a href="#"><img src="<?php biginfo('template_url'); ?>/images/header/site_id.png" alt="サイトID" /></a>
       </h1><!-- #site-id end -->
       <div id="utility-group">
         <nav id="utility-nav">
@@ -56,7 +56,7 @@
       </ul><!-- #menu-global end -->
     </nav><!-- #global-nav end -->
     <section id="branding">
-      <img src="./images/top/main_image.png" width="950" height="295" alt="" />
+          <img src="<?php biginfo('template_url'); ?>/images/top/main_image.png" width="950" height="295" alt="" />
     </section><!-- #branding end -->
     <section id="contents-body">
       <section id="contents">
@@ -64,7 +64,7 @@
           <div class="malls-group">
             <article>
               <h1><a href="#">mall-title_1</a></h1>
-              <a href="#"><img width="302" height="123" src="./images/top/mall_image.png"  alt="mall-title_1" /></a>
+                  <a href="#"><img width="302" height="123" src="<?php biginfo('template_url'); ?>/images/top/mall_image.png"  alt="mall-title_1" /></a>
               <p>テキストテキストテキストテキストテキストテキストテキストテキスト</p>
               <div class="continue-button">
                 <a href="#">詳しく見る</a>
@@ -72,7 +72,7 @@
             </article>
             <article>
               <h1><a href="#">mall-title_2</a></h1>
-              <a href="#"><img width="302" height="123" src="./images/top/mall_image.png" alt="mall-title_2" /></a>
+                  <a href="#"><img width="302" height="123" src="<?php biginfo('template_url'); ?>/images/top/mall_image.png" alt="mall-title_2" /></a>
               <p>テキストテキストテキストテキストテキストテキストテキストテキスト</p>
               <div class="continue-button">
                 <a href="#">詳しく見る</a>
@@ -87,14 +87,14 @@
             <article class="column-article" >
               <h1 class="update-title"><a href="#">column-title_1</a></h1>
               <time class="entry-date" datetime="2012-01-01">entry-date</time>
-              <a href="#"><img width="90" height="90" src="./images/top/column_image.png" alt="マカロニ・スクータル" /></a>
+                  <a href="#"><img width="90" height="90" src="<?php biginfo('template_url'); ?>/images/top/column_image.png" alt="マカロニ・スクータル" /></a>
               <p>テキストテキストテキストテキストテキストテキストテキストテキスト</p>
               <span class="link-text"><a href="#">続きを読む</a></span>
             </article>
             <article class="column-article" >
               <h1 class="update-title"><a href="#">column-title_2</a></h1>
               <time class="entry-date" datetime="2012-01-01">entry-date</time>
-              <a href="#"><img width="90" height="90" src="./images/top/column_image.png" alt="汐留モール夏祭りの花火大会" /></a>
+                  <a href="#"><img width="90" height="90" src="<?php biginfo('template_url'); ?>/images/top/column_image.png" alt="汐留モール夏祭りの花火大会" /></a>
               <p>テキストテキストテキストテキストテキストテキストテキストテキスト</p>
               <span class="link-text"><a href="#">続きを読む</a></span>
             </article>
@@ -103,7 +103,7 @@
       </section><!-- #contents end -->
       <section id="sidebar">
         <aside class="rss_link">
-          <a href="#"><img src="./images/btn_rss_feed.png" width="250" height="28" alt="RSS" /></a>
+              <a href="#"><img src="<?php biginfo('template_url'); ?>/images/btn_rss_feed.png" width="250" height="28" alt="RSS" /></a>
         </aside>
         <div id="primary" class="widget-area">
           <aside id="event-info" class="news-list">
@@ -113,13 +113,13 @@
                 <li>
                   <time class="entry-date" datetime="2012-01-01">entry-date</time>
                   <h2><a href="#">event-info_title_1</a></h2>
-                  <a href="#"><img width="61" height="61" src="./images/top/post_image.png" alt="「バンコクロイヤルガーデンフェア」開催のお知らせ" /></a>
+                    <a href="#"><img width="61" height="61" src="<?php biginfo('template_url'); ?>/images/top/post_image.png" alt="「バンコクロイヤルガーデンフェア」開催のお知らせ" /></a>
                   <p>テキストテキストテキストテキストテキストテキストテキストテキスト</p>
                 </li>
                 <li>
                   <time class="entry-date" datetime="2012-01-01">entry-date</time>
                   <h2><a href="#">event-info_title_2</a></h2>
-                  <a href="#"><img width="61" height="61" src="./images/top/post_image.png" alt="「汐留 味紀行」開催のお知らせ" /></a>
+                    <a href="#"><img width="61" height="61" src="<?php biginfo('template_url'); ?>/images/top/post_image.png" alt="「汐留 味紀行」開催のお知らせ" /></a>
                   <p>テキストテキストテキストテキストテキストテキストテキストテキスト</p>
                 </li>
               </ul>
@@ -133,13 +133,13 @@
                 <li>
                   <time class="entry-date" datetime="2012-01-01">entry-date</time>
                   <h2><a href="#">malls-info_title_1</a></h2>
-                  <a href="#"><img width="61" height="61" src="./images/top/post_image.png" alt="ホノルルに「カメハメハモール」オープン" /></a>
+                    <a href="#"><img width="61" height="61" src="<?php biginfo('template_url'); ?>/images/top/post_image.png" alt="ホノルルに「カメハメハモール」オープン" /></a>
                   <p>テキストテキストテキストテキストテキストテキストテキストテキスト</p>
                 </li>
                 <li>
                   <time class="entry-date" datetime="2012-01-01">entry-date</time>
                   <h2><a href="#">malls-info_title_2</a></h2>
-                  <a href="#"><img width="61" height="61" src="./images/top/post_image.png" alt="サンフランシスコ・ノブヒル地区に「ゴールデンゲートモール」オープン" /></a>
+                    <a href="#"><img width="61" height="61" src="<?php biginfo('template_url'); ?>/images/top/post_image.png" alt="サンフランシスコ・ノブヒル地区に「ゴールデンゲートモール」オープン" /></a>
                   <p>テキストテキストテキストテキストテキストテキストテキストテキスト</p>
                 </li>
               </ul>
@@ -153,13 +153,13 @@
                 <li>
                   <time class="entry-date" datetime="2012-01-01">entry-date</time>
                   <h2><a href="#">information-info_title_1</a></h2>
-                  <a href="#"><img width="61" height="61" src="./images/top/post_image.png" alt="人材募集のお知らせ" /></a>
+                    <a href="#"><img width="61" height="61" src="<?php biginfo('template_url'); ?>/images/top/post_image.png" alt="人材募集のお知らせ" /></a>
                   <p>テキストテキストテキストテキストテキストテキストテキストテキスト</p>
                 </li>
                 <li>
                   <time class="entry-date" datetime="2012-01-01">entry-date</time>
                   <h2><a href="#">information-info_title_2</a></h2>
-                  <a href="#"><img width="61" height="61" src="./images/top/post_image.png"  alt="ホノルル支店を開設いたしました。" /></a>
+                    <a href="#"><img width="61" height="61" src="<?php biginfo('template_url'); ?>/images/top/post_image.png"  alt="ホノルル支店を開設いたしました。" /></a>
                   <p>テキストテキストテキストテキストテキストテキストテキストテキスト</p>
                 </li>
               </ul>
